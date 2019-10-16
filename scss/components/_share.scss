@@ -1,8 +1,13 @@
 .c-Share {
-    background-color: lightgreen;
     text-align: center;
 }
 
 .c-share__image {
     display: inline-block;
+}
+
+.u-OptionalImage {
+    @media (max-width: 500px){
+        display: none;
+    }
 }

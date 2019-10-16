@@ -18,6 +18,20 @@
     position: relative;
 }
 
-.u-PaddingV--medium {
+.u-PaddingV--med {
     padding: 2rem 0;
+}
+
+.u-PadidngH--med {
+    padding: 0 2rem;
+}
+
+.u-FontSize--large {
+    font-size: 1.5rem;
+}
+
+.u-OptionalImage {
+    @media (max-width: 500px){
+        display: none;
+    }
 }

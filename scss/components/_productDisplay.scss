@@ -1,12 +1,17 @@
 .c-ProductDisplay {
-    background-color: hotpink;
+    padding: 0 1rem;
 }
 
+
 .c-ProductDisplay__card {
-    padding: 0 .5rem;
+    padding: 1rem 0.5rem;
 }
 
 .c-ProductDisplay__image {
-    width: 100%;
-    
+    width: 100%;  
+    transition: transform .3s;
+}
+
+.c-ProductDisplay__image:hover{
+    transform: scale(1.25);
 }

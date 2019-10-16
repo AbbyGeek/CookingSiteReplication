@@ -1,4 +1,10 @@
 .c-InstructionCard {
+    padding: 2rem 0;
+    transition: transform .5s ease;
+}
+
+.c-InstructionCard:hover {
+    transform: scale(1.25);
 }
 
 .c-InstructionCard__image {

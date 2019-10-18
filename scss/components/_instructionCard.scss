@@ -1,15 +1,22 @@
-.c-InstructionCard {
-    padding: 2rem 0;
+
+.c-Instruction .c-Instruction__card:nth-of-type(even){
+    @media (min-width: 500px) {
+        flex-direction: row-reverse;
+    }
+}
+
+.c-Instruction__card {
+    padding: 2rem;
     text-align: center;
 }
 
-.c-InstructionCard__text {
-    
-}
-
-.c-InstructionCard__image {
+.c-Instruction__cardImage {
     height: 215px;
     width: 100%;
     max-width: 400px;
     object-fit: cover;
+}
+
+.c-Instruction__cardText {
+    margin: 0 3rem;
 }

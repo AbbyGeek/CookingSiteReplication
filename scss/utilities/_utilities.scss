@@ -6,6 +6,10 @@
     text-align: center;
 }
 
+.u-TextAlign--left {
+    text-align: left;
+}
+
 .u-TextDecorate--caps {
     text-transform: uppercase;
 }
@@ -37,6 +41,6 @@
 }
 
 .u-TextShadow {
-    text-shadow: 5px 5px 5px 5px;
+    text-shadow: 1px 1px white;
 
 }

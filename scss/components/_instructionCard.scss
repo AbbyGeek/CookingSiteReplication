@@ -1,15 +1,15 @@
 .c-InstructionCard {
     padding: 2rem 0;
-    transition: transform .5s ease;
+    text-align: center;
 }
 
-.c-InstructionCard:hover {
-    transform: scale(1.15);
+.c-InstructionCard__text {
+    
 }
 
 .c-InstructionCard__image {
     height: 215px;
     width: 100%;
+    max-width: 400px;
     object-fit: cover;
-
 }
